@@ -8,8 +8,6 @@ body {
     background-color: #1f2937;
     padding: 16px 200px;
     width: auto;
-    height: 350px;
-
 }
 
 .nav {
@@ -40,6 +38,7 @@ a, .sub {
 
 .hero {
     margin-top: 32px;
+    margin-bottom: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,12 +117,12 @@ button {
 .quote-container {
     display: flex;
     flex-direction: column;
-    height: 200px;
     padding: 48px 200px;
     background-color: #e5e7eb;
     align-items: flex-end;
     gap: 16px;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .quote {
@@ -135,4 +134,47 @@ button {
 
 .author {
     font-weight: 900;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    margin: 64px 100px;
+    padding: 32px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    align-self: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    gap: 16px;
+}
+
+.signup-cta {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.signup-description {
+    color: #e5e7eb;
+}
+
+.signup-button {
+    border: #f9faf8 solid;
+    border-width: 2px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 16px 200px;
 }
